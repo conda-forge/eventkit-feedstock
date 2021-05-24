@@ -1,5 +1,5 @@
 {% set name = "eventkit" %}
-{% set version = "0.8.6" %}
+{% set version = "0.8.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ca9ef8eb42e0846381c2f79e5cf6c572224ea25b52c6410f6e17090ce761ae10
+  sha256: 1174a5796454b220ad27bee2456444e373a348022e7a8b9cd3a957077991becb
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Event-driven data pipelines'
+  summary: Event-driven data pipelines
   description: |
     The primary use cases of eventkit are
       * to send events between loosely coupled components;
