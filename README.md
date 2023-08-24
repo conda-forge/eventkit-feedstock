@@ -1,11 +1,11 @@
-About eventkit
-==============
+About eventkit-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eventkit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/erdewit/eventkit
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eventkit-feedstock/blob/main/LICENSE.txt)
 
 Summary: Event-driven data pipelines
 
