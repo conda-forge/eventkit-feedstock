@@ -1,5 +1,5 @@
 {% set name = "eventkit" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c9c4bb8a9685e4131e845882512a630d6a57acee148f38af286562a76873e4a9
+  sha256: 99497f6f3c638a50ff7616f2f8cd887b18bbff3765dc1bd8681554db1467c933
 
 build:
   noarch: python
